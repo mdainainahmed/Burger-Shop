@@ -1,0 +1,78 @@
+a:hover {
+  background-color: gold;
+}
+
+body{
+  background-color: #D3EBCD;
+  font-family: fantasy;
+  color: #635666;
+  text-align: center;
+}
+
+img{
+  width: 32.8%;
+  border-radius: 5%;
+}
+img:hover{
+  background-color: gold;
+}
+
+
+h2{
+  font-size: 35px;
+
+}
+
+hr {
+  border-style: none;
+  border-top: dashed;
+  border-top-color: #635666;
+  width: 20%;
+  border-radius: 100%;
+}
+
+p {
+  font-size: 25px;
+}
+
+table {
+  border-spacing: 20px;
+}
+/****************************/
+.feedback {
+  text-align: left;
+}
+
+.frontImage {
+  display: block;
+  border-style: outset;
+  width: 100%;
+}
+
+.fullMenu:hover {
+  background-color: gold;
+}
+
+.lastHR {
+  border-style: solid;
+  width: 100%;
+}
+
+.menuImage{
+  width: 80px;
+}
+
+.order{
+  text-align: left;
+}
+.submit {
+  border-style: outset;
+  border-color: #635666;
+  font-family: fantasy;
+  background-color: #D3EBCD;
+  color: #635666;
+}
+/***************************/
+#heading{
+  font-size: 450%;
+}

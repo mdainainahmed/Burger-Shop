@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <h1>DINE-IN/TAKEAWAY</h1>
+    <table class="order">
+      <tbody>
+        <tr>
+          <td><p>Address:</p></td>
+          <td><p align="left">Burger Shop Select CityWalk, Shop No. S - 2 & 3, Plot No. A3 2nd Floor, Select CityWalk Pushp Vihar, Saket, New Delhi, Delhi 110017</p></td>
+        </tr>
+        <tr>
+          <tr>
+            <td><p>Phone No.</p></td>
+            <td><p align="left">+91-869321476</p></td>
+          </tr>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <h1>DELIVERY</h1>
+    <form  class="order" action="mailto:burgershop.org.in" method="post" enctype="text/plain">
+      <label for="">Name: </label>
+      <input type="text" name="yourName" value=""><br><br>
+      <label for="">E-mail: </label>
+      <input type="email" name="yourEmail" value=""><br><br>
+      <label for="">Phone No: </label>
+      <input type="number" name="yourNumber" value=""><br><br>
+      <label for="">Address:</label>
+      <textarea name="yourAddress" rows="8" cols="80"></textarea><br><br>
+      <table>
+        <thead >
+          <th align="center">Order Items</th>
+          <th align="center">Quantity</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/hamburger_1f354.png" alt="burger"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="burgerQuantity" value="">
+            </td>
+          </tr>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/beer-mug_1f37a.png" alt="beer"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="beerQuantity" value="">
+            </td>
+          </tr>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/cupcake_1f9c1.png" alt="cup-cakes"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="cupcakeQuantity" value="">
+            </td>
+          </tr>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/doughnut_1f369.png" alt="donuts"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="donutQuantity" value="">
+            </td>
+          </tr>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/pizza_1f355.png" alt="pizza"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="pizzaQuantity" value="">
+            </td>
+          </tr>
+          <tr>
+            <td> <img class="menuImage" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/291/ice-cream_1f368.png" alt="ice-cream"> </td>
+            <td>
+              <label for=""></label>
+              <input type="number" name="icecreamQuantity" value="">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <label for="">Do you want to submit?</label>
+      <input type="checkbox" name="yourCheckbox" value="">
+      <input class="submit" type="submit" name="Save" value="Submit">
+    </form>
+
+
+  </body>
+</html>
